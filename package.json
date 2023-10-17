@@ -9,13 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "mongodb": "^6.1.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.0",
+    "next": "13.5.4",
+    "next-auth": "^4.23.2",
+    "postcss-import": "^15.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3"
+    "@types/react": "18.2.25",
+    "autoprefixer": "^10.4.16",
+    "dotenv": "^16.3.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.2.2"
   }
 }
